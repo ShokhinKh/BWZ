@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style/style.css" />
+    <meta
+      name="»viewport»"
+      content="»width"
+      ="device-width,"
+      initial-scale="1.0”"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <title>BWZ</title>
+</head>
+<body>
+
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <div class="header__logo">
+                Т<span class="red">О</span>ЧКА КИПЕНИЯ
+            </div>
+
+            <!-- Навигация по сайту -->
+            <nav class="nav">
+              <a class="nav__link nav__link1" href="#">Зоны коворкинга</a>
+              <a class="nav__link nav__link2" href="#">Команда</a>
+              <a class="nav__link nav__link3" href="#">Отзывы</a>
+            </nav>
+           
+            <!-- Кнопки для регистрации -->
+            <div class="nav_buttons">
+                <a class="button_reg" href="#">Регистрация</a>
+                <a class="button_vhod" href="#">Вход</a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Главнаый блок -->
+      <main class="main">
+        <section class="intro">
+          <div class="container">
+            <div class="intro__inner">
+              <div class="intro__item">
+                  <h1 class="intro_title"><span class="red">B</span>OOKING <span class="red">W</span>ORK <span class="red">Z</span>ONE</h1>
+                  <p class="intro_text">Бронирование зон коворкинга в университете СурГу</p>
+              </div>
+              <a class="button" href="#">Забронировать</a>
+              </div>
+          </div>
+        </section>
+
+        <!-- Эта штука для линии ес че -->
+        <div class="border_bottom"></div> 
+
+        <!-- Зоны для бронирования -->
+        <section class="zones">
+          <div class="container">
+            <h2 class="title">Зоны коворкинга</h2>
+            <div class="zones_item">
+              <div class="zone_img">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" src="images/2.jpg" alt="Первый слайд">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h3>Зал "Коворкинг"</h3>
+                        <p>Зал "Коворкинг" идеально подойдет под групповую работу.
+                  Вместимость: до 20 человек (зеленая зона), до 20 человек (синяя зона);
+                  Оснащение: 1 TV,  ноутбук, HDMI-проводники, флипчарты.
+                  Правила: бесплатные мероприятия (для организаторов и для участников), без политики, религии и рекламы, обязательна регистрации мероприятия и участников на платформе .
+                  Важно: при организации мероприятия в Точке кипения организаторы самостоятельно приносят материалы-расходники: бумага для флипчарта, маркеры, бумага для участников, ручки для участников, батарейки для микрофона, батарейки для кликера, бутилированная вода.</p>
+                  <a class="button-zone" href="#">Забронировать</a>
+                </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="images/3.jpg" alt="Второй слайд">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h3>Зал "Лекториум"</h3>
+                        <p>Зал Лекториум идеально подойдет для обучающего или презентационного мероприятия в лекторийном формате, может быть трансформирован под групповую работу.
+                          Вместимость: до 100 человек (комфортно до 60);
+                          Оснащение: 2 TV, стационарный компьютер, ноутбук, HDMI-проводники, HD-камера, колонка, микшер, микрофонная система, презентер, флипчарты.
+                          Правила: бесплатные мероприятия (для организаторов и для участников), без политики, религии и рекламы, обязательна регистрации мероприятия и участников на платформе .
+                          Важно: при организации мероприятия в Точке кипения организаторы самостоятельно приносят материалы-расходники: бумага для флипчарта, маркеры, бумага для участников, ручки для участников, батарейки для микрофона, батарейки для кликера, бутилированная вода.
+                          </p>
+                  <a class="button-zone" href="#">Забронировать</a>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="images/6.jpg" alt="Второй слайд">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h3>Зал "Групповых работ"</h3>
+                        <p>Зал групповых работ в опенспейсе Научной библиотеки СурГУ идеально подойдет для обучающего мероприятия в группе, стратегической или проектировочной сессии, также зал может быть трансформирован в лекторийный формат.
+                          Вместимость: до 30 человек (в формате групповой работы), до 60 человек в лекторийном формате;
+                          Оснащение: 1 TV, ноутбук, HDMI-проводник, HD-камера, презентер, флипчарты.
+                          Правила: бесплатные мероприятия (для организаторов и для участников), без политики, религии и рекламы, обязательна регистрация мероприятия и участников на платформе .
+                          Важно: при организации мероприятия в Точке кипения организаторы самостоятельно приносят материалы-расходники: бумага для флипчарта, маркеры, бумага для участников, ручки для участников, батарейки для микрофона, батарейки для кликера, бутилированная вода.
+                          </p>
+                  <a class="button-zone" href="#">Забронировать</a>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="border_bottom"></div>
+
+        <!-- Раздел про команду -->
+        <section class="team">
+          <div class="container">
+            <h2 class="title">Команда</h2>
+            <div class="team_cards">
+              <div class="card_item">
+               <div class="card_img">Тут будет фотка</div>
+               <div class="card_title">Имя</div>
+               <div class="card_subtitle">Должность</div>
+               <div class="team_btn">
+                <a class="button-team1" href="#">Написать</a>
+                <a class="button-team" href="#">Позвонить</a>
+              </div>
+              </div>
+              <div class="card_item">
+                <div class="card_img">Тут будет фотка</div>
+                <div class="card_title">Имя</div>
+                <div class="card_subtitle">Должность</div>
+                <div class="team_btn">
+                  <a class="button-team1" href="#">Написать</a>
+                  <a class="button-team" href="#">Позвонить</a>
+                </div>
+               </div>
+               <div class="card_item">
+                <div class="card_img">Тут будет фотка</div>
+                <div class="card_title">Имя</div>
+                <div class="card_subtitle">Должность</div>
+                <div class="team_btn">
+                  <a class="button-team1" href="#">Написать</a>
+                  <a class="button-team" href="#">Позвонить</a>
+                </div>
+               </div>
+            </div>
+          </div>
+        </section>
+        <div class="border_bottom"></div>
+
+        <!-- Отзывы -->
+        <!-- Я кста не ебу как будем добавлять отзывы -->
+        <section class="reviews">
+          <div class="container">
+            <h2 class="title">Отзывы</h2>
+            <div class="reviews_cards">
+              <div class="reviews_item">
+                <div class="reviews_img">Фото</div>
+                <div class="reviews_info">
+                  <div class="reviews_name">Имя Фамилия</div>
+                  <div class="reviews_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ratione dignissimos fugit, tempore porro 
+                    praesentium aut harum non. Optio dolor sunt alias error quaerat voluptatum, ipsam ipsum maxime distinctio aliquid!</div>
+                </div>
+              </div>
+              <div class="border_bottom1"></div>
+              <div class="reviews_item">
+                <div class="reviews_img">Фото</div>
+                <div class="reviews_info">
+                  <div class="reviews_name">Имя Фамилия</div>
+                  <div class="reviews_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ratione dignissimos fugit, tempore porro 
+                    praesentium aut harum non. Optio dolor sunt alias error quaerat voluptatum, ipsam ipsum maxime distinctio aliquid!</div>
+                </div>
+              </div>
+              <div class="border_bottom1"></div>
+              <div class="reviews_item">
+                <div class="reviews_img">Фото</div>
+                <div class="reviews_info">
+                  <div class="reviews_name">Имя Фамилия</div>
+                  <div class="reviews_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ratione dignissimos fugit, tempore porro 
+                    praesentium aut harum non. Optio dolor sunt alias error quaerat voluptatum, ipsam ipsum maxime distinctio aliquid!</div>
+                </div>
+              </div>
+              <div class="border_bottom1"></div>
+              <div class="reviews_item">
+                <div class="reviews_img">Фото</div>
+                <div class="reviews_info">
+                  <div class="reviews_name">Имя Фамилия</div>
+                  <div class="reviews_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ratione dignissimos fugit, tempore porro 
+                    praesentium aut harum non. Optio dolor sunt alias error quaerat voluptatum, ipsam ipsum maxime distinctio aliquid!</div>
+                </div>
+              </div>
+              <div class="reviews_btn">
+                <a class="add_btn" href="#">Оставить отзыв</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="border_bottom"></div>
+
+
+        <!-- Раздел с картой -->
+        <section class="location">
+          <div class="container">
+            <h2 class="title">Наше расположение</h2>
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A3fc0f1e475223d85717777ca416419a26578c085af052bb9d0ba3712715f47aa&amp;source=constructor" width="1100" height="650" frameborder="0"></iframe>
+          </div>
+        </section>
+        <div class="border_bottom"></div>
+
+        <!-- Форма для заполнения -->
+        <!-- Тут наши любимы бэкендеры ебутся с этим -->
+        <section class="select">
+          <div class="container">
+            <h2 class="title">Форма бронирования</h2>
+            <form action="#">
+
+              <div class="input">
+
+                <p class="input_title">Введите Имя:</p>
+                <input class="input_text" placeholder="Иван" id="name" type="text" />
+                <p class="input_title">Введите Фамилию:</p>
+                <input class="input_text" placeholder="Иванов" id="surname" type="text" />
+                <p class="input_title">Введите Отчество:</p>
+                <input class="input_text" placeholder="Иванович" id="surname" type="text" />
+                <p class="input_title">Введите почту:</p>
+                <input class="input_text" placeholder="Введите почту" type="email" name="email" />
+                <p class="input_title">Введите номер телефона:</p>
+                <input class="input_text" placeholder="Введите номер" type="tel" name="email" />
+                <p class="input_title">Введите дату бронирования:</p>
+                <input class="input_text" type="date" id="date" name="date"/>
+                <p class="input_title">Введите время бронирования:</p>
+                <input class="input_text" type="time" id="time" name="time"/>
+                <p class="input_title">Выберите зал:</p>
+
+                <select class="input_text" name="hall" id="hall-select">
+                  <option value="">Пожалуйста, выберите зал</option>
+                  <option value="dog">Коворкинг</option>
+                  <option value="cat">Лекториум</option>
+                  <option value="hamster">Зал групповых работ</option>
+                </select>
+
+                <p class="input_title">Введите тип мероприятия:</p>
+                <select class="input_text" name="type" id="type-select">
+                  <option value="">Выберите тип</option>
+                  <option value="dog">Лекции</option>
+                  <option value="cat">Конференции</option>
+                  <option value="hamster">Личные мероприятия</option>
+                  <option value="hamster">Встречи клубов</option>
+                  <option value="cat">Мастер-классы</option>
+                </select>
+                <button class="sign_up">Записаться</button>
+              </div>
+            </form>
+
+          </div>
+        </section>
+        <div class="border_bottom"></div>
+
+        <!-- Подвальчик -->
+        <footer class="footer">
+          <div class="container">
+            <div class="footer__logo">
+              Т<span class="red">О</span>ЧКА КИПЕНИЯ
+            </div>
+            <div class="border_bottom2"></div>
+            
+            <div class="footer-info">
+              <div class="footer_link">
+                <!-- Навигация по сайту-->
+                <div class="footer-nav_title">Навигация по сайту</div>
+                <nav class="footer-nav">
+                  <a class="footer-nav__link nav__link4" href="#">О проекте</a>
+                  <a class="footer-nav__link nav__link5" href="#">Зоны коворкинга</a>
+                  <a class="footer-nav__link nav__link6" href="#">Отзывы</a>
+                  <a class="footer-nav__link nav__link7" href="#">Наше расположение</a>
+                </nav>
+              </div>
+  
+              <!-- Социальные сети -->
+      
+
+              <div class="footer-follow">
+                <div class="footer-follow_title">Подпишитесь на нас</div>
+                <a href="#" class="follow_link">
+                  <img class="footer-icon" src="images/tg.png" alt="">
+                </a>
+                <a href="#" class="follow_link">
+                  <img class="footer-icon" src="images/vk.png" alt="">
+                </a>
+                <a href="#" class="follow_link">
+                  <img class="footer-icon" src="images/inst.png" alt="">
+                </a>
+              </div>
+            </div>
+
+
+          </div>
+        </footer>
+      </main>
+
+
+          <!-- Optional JavaScript -->
+    <!-- Тут скрипты, не все работают пока кста-->
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</body>
+</html>
