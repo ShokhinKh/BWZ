@@ -506,6 +506,10 @@ body {
 
 @media (max-width: 992px) {
 
+  .border_bottom{
+    width: 870px;
+  }   
+    
   .container { 
     width: 768px;
   }
