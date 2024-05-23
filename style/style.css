@@ -546,11 +546,16 @@ padding: 8px 10px;
   padding-right: 150px;
 }
 
-
-
+.footer{
+  width: 691px;
+  margin-left: 150px;
+  padding-right: 150px;
 }
 
-
+.footer-nav {
+  font-size: 12px;
+}
+}
 @media (max-width: 576px) {
 .header__inner{
   font-size: 13px;
@@ -580,6 +585,5 @@ padding: 8px 10px;
 .element_style{
   width: 70%;
 }
-
 }
 
